@@ -28,3 +28,7 @@ alias dweb='docker-compose run --rm web'
    You will be asked if to overwrite `Gemfile.lock` - what do you think? ;-)
 
 7. All further commands use with `dweb ` prefix, i.e. `dweb rails c`
+8. Further initial steps which are normal for Rails writing:
+   - `dwe bundle` - to install basic gems of the newly created app
+9. Serve the app with `docker-compose up`, see it at http://localhost:3000
+
