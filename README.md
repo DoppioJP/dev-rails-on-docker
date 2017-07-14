@@ -12,6 +12,7 @@ alias dweb='docker-compose run --rm web'
    - `Dockerfile`
    - `docker-compose.yml`
    - Gemfile
+   - Gemfile.lock
 2. Change in `docker-compose.yml` the bundle/image name to be `yournewproject_web`
 3. Commit with "I'm going to write Rails in Docker"
 4. `docker-compose build`
