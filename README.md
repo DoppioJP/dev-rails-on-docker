@@ -1,6 +1,7 @@
 # Rails development in Docker
 
 ## Aliases
+Adding this alias to your shell profile will be very useful
 
 ```
 alias dweb='docker-compose run --rm web'
