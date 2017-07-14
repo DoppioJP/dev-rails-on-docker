@@ -23,5 +23,6 @@ alias dweb='docker-compose run --rm web'
    ```
 6. Initialise your new Rails project with
    ```
-   dweb rails new your-new-project .
+   dweb rails new .
    ```
+   You will be asked if to overwrite `Gemfile.lock` - what do you think? ;-)
