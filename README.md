@@ -26,3 +26,5 @@ alias dweb='docker-compose run --rm web'
    dweb rails new .
    ```
    You will be asked if to overwrite `Gemfile.lock` - what do you think? ;-)
+
+7. All further commands use with `dweb ` prefix, i.e. `dweb rails c`
